@@ -31,4 +31,4 @@ jobs:
         run: npm install -g surge
 
       - name: deploy on surge
-        run: surge . ap-bootcamp2020-example.surge.sh --token ${{secrets.SURGE_TOKEN}}
+        run: surge . firstSurgedeploy.surge.sh --token ${{secrets.SURGE_TOKEN}}
